@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Button</title>
+  </head>
+  <body>
+    
+    <div class="kok">
+        <div class="pop">Ты даун?</div>
+        <div class="con">
+            <button class="font-size: 20px;" >Да</button>
+            <button class="btn"><h1>Нет</h1></button>
+          </div>
+    <div>
+    <script>
+      let btn = document.querySelector(".btn");
+      var position;
+      btn.addEventListener("mouseenter", function () {
+        position ? (position = 0) : (position = 150);
+        btn.style.transform = `translate(${position}px, 0px)`;
+        btn.style.transform = "all 0.3s ease";
+      });
+    </script>
+  </body>
+</html>
+
+
+
+</div>
+</div>
